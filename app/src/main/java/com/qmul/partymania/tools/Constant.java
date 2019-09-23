@@ -1,0 +1,46 @@
+package com.qmul.partymania.tools;
+
+public class Constant {
+    public static final String MY_SERVER_IP = "35.197.244.182";
+    public static final int APP_EXIT_CHECK = 100;
+    public static final int SERVER_NOT_RETURN = 0;
+    public static final int LOGIN_FAIL = 400;
+    public static final int LOGIN_SUCCESS = 1;
+    public static final int NAMENOTEXISTED = 2;
+    public static final int NAMEEXISTED = 3;
+    public static final int REG_SUCCESS = 4;
+    public static final int REG_FAIL = 5;
+    public static final int COMPLETE_SUCCESS = 6;
+    public static final int COMPLETE_FAIL = 7;
+    public static final int EDITPROFILE_SUCCESS = 8;
+    public static final int EDITPROFILE_FAIL = 9;
+    public static final int POST_SUCCESS = 10;
+    public static final int POST_FAIL = 11;
+    public static final int QUERY_POST_NULL = 12;
+    public static final int QUERY_POST_SUCCESS = 122;
+    public static final int DELETE_POST_SUCCESS = 13;
+    public static final int DELETE_POST_FAIL = 14;
+    public static final int CHANGE_POST_LIKE_SUCCESS = 15;
+    public static final int CHANGE_POST_LIKE_FAIL = 16;
+    public static final int ADD_COMMENT_SUCCESS = 17;
+    public static final int ADD_COMMENT_FAIL = 18;
+    public static final int QUERY_COMMENT_NULL = 19;
+    public static final int QUERY_COMMENT_SUCCESS = 199;
+    public static final int QUERY_MATCHING_NULL = 20;
+    public static final int QUERY_MATCHING_SUCCESS = 200;
+    public static final int ADD_RELATION_SUCCESS = 21;
+    public static final int ADD_RELATION_FAIL = 22;
+    public static final int QUERY_RELATION_NULL = 23;
+    public static final int CHANGE_RELATION_SUCCESS = 24;
+    public static final int CHANGE_RELATION_FAIL = 25;
+    public static final int SERVER_NOT_RETURN_FOR_REG = 26;
+    public static final int QUERY_MY_POST_NULL = 27;
+    public static final int QUERY_MY_POST_SUCCESS = 28;
+    public static final int QUERY_FRIENDS_NULL = 29;
+    public static final int QUERY_FRIENDS_SUCCESS = 30;
+    public static final int DELETE_FRIEND_SUCCESS = 31;
+    public static final int DELETE_FRIEND_FAIL = 32;
+    public static final int QUERY_USER_NULL = 33;
+    public static final int QUERY_USER_SUCCESS = 34;
+    public static final int RELATION_EXIST = 35;
+}

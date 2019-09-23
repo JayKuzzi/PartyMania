@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_gravity="top"
+        android:background="#FAFAFA"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/post_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/cancel"
+            android:textColor="#262626"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="New Post"
+            android:textColor="#1E1E1E"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/post_share"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="14dp"
+            android:text="Share"
+            android:textColor="#3897F0"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CFCFCF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/post_upload_photo"
+            android:src="@drawable/upload_photo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            />
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#CFCFCF" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FEFFFF"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="14dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:text="Post to"
+                android:textColor="#262626"
+                android:textSize="16sp" />
+
+
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/post_tabLayout"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/edit_text_background"
+                android:layout_marginLeft="124dp"
+                android:layout_width="210dp"
+                android:layout_height="30dp"
+                app:tabIndicatorColor="@android:color/holo_blue_bright"
+                app:tabIndicatorHeight="0dp"
+                app:tabSelectedTextColor="#000000"
+                app:tabTextAppearance="@android:style/TextAppearance.Holo.Small"
+                app:tabTextColor="#C5C5C5"/>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="228dp"
+                android:layout_gravity="center_vertical"
+                android:background="#C5C5C5" />
+        </FrameLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/post_viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+</LinearLayout>

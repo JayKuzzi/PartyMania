@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login_layout"
+    android:layout_width="match_parent"
+    android:layout_height="115dp"
+    android:background="#FEFFFF"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+
+    <com.qmul.partymania.views.XCImageView
+        android:id="@+id/login_head"
+        android:layout_width="88dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/default_photo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:paddingTop="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.3"
+            android:orientation="horizontal"
+            android:gravity="left">
+            <ImageView
+                android:layout_marginLeft="20dp"
+                android:id="@+id/me_sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_man_x"/>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:id="@+id/me_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Age: 25"
+                android:textStyle="bold"
+                android:textColor="#15ADE6"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="-5dp"
+            android:paddingBottom="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:gravity="left">
+            <TextView
+                android:id="@+id/me_email"
+                android:gravity="center"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email: 200826311@qq.com"
+                android:textColor="#15ADE6"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginBottom="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <Button
+                android:background="@drawable/button_background2"
+                android:id="@+id/editProfile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Profile"
+                android:textColor="#262626"
+                android:textAllCaps="false"
+                android:textSize="15sp"/>
+            <Button
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/button_background2"
+                android:id="@+id/aboutApp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Author"
+                android:textColor="#262626"
+                android:textAllCaps="false"
+                android:textSize="15sp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
+

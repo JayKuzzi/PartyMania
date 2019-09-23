@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:clipChildren="false"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="❤ Matching User   ❤"
+        android:textColor="#DD021B"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/matching_retry"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:paddingTop="200dp"
+            android:text="No match for you, click retry."
+            android:textColor="#DD021B"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <com.fashare.stack_layout.StackLayout
+            android:id="@+id/stack_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp" />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="80dp"
+        android:gravity="center"
+        android:text="@string/matching_tip"
+        android:textColor="#CBCBCF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

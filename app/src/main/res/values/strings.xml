@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PartyMania</string>
+    <string name="title_activity_sign__in">Sign_In</string>
+    <string name="change_profile_photo">Change Profile Photo</string>
+    <string name="done">Done</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="cancel">Cancel</string>
+    <string name="post_to_moment_tip">If you\'re done, click on the top right corner of the screen to share.</string>
+    <string name="matching_tip">Here you can find someone who has similar free time. If you want to party with him/her, you can swipe right and follow him/her. Otherwise, swipe to the left</string>
+</resources>
